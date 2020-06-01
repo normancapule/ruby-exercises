@@ -15,7 +15,7 @@ describe Calculator do
 
   it 'performs multiplication with 5 inputs' do
     result = Calculator.new(1, 2, 3, 4, 5)
-    expect(result.multiply).to be 15
+    expect(result.multiply).to be 120
   end
 
   it 'performs multiplication with 2 inputs' do
@@ -30,7 +30,7 @@ describe Calculator do
 
   it 'performs division with 2 inputs' do
     result = Calculator.new(10, 5)
-    expect(result.divide).to be 2
+    expect(result.divide).to be 2.0
   end
 
   it 'performs subtraction with 5 inputs' do

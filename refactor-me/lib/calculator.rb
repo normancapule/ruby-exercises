@@ -15,7 +15,7 @@ class Calculator
   end
 
   def multiply
-    @@result = @@number1 + @@number2 + @@number3 + @@number4 + @@number5
+    @@result = @@number1 * @@number2 * @@number3 * @@number4 * @@number5
     @@result
   end
 
